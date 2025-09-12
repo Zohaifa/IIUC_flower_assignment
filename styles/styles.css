@@ -55,7 +55,7 @@ header > img{
 .flower-pics{
     display: flex;
     justify-content: center;
-    gap: 2 rem;
+    gap: 1rem;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -91,4 +91,26 @@ header > img{
     font-weight: bold;
     text-decoration: underline;
     color: #333;
+}
+
+.service{
+    margin: 5.629rem 10.55rem 0 10.55rem;
+    padding: 3.782rem 7.696rem;
+    background-color: rgba(39, 39, 39, 0.05);
+    display:flex;
+    justify-content: space-between;
+}
+.service figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service img{
+    height: 3.87rem;
+    width: 3.87rem;
+}
+
+.service figcaption{
+    margin-top: 1rem;
+    color: rgba(39, 39, 39, 0.8);
 }
