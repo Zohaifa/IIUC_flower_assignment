@@ -52,3 +52,43 @@ header > img{
     text-align: center; 
     line-height: 1.32rem;
 }
+.flower-pics{
+    display: flex;
+    justify-content: center;
+    gap: 2 rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flower-pics div{
+    width: 20.406rem;
+    height: 23.66rem;
+    border-radius: 50% 50% 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower-pics img {
+    max-width: auto;
+    height: 70%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+.fdiv-1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.fdiv-2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.fdiv-3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-pics figcaption {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333;
+}
