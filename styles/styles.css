@@ -36,3 +36,19 @@ header{
 header > img{
     width: 27.32rem;
 }
+
+.ff{
+    padding: 7.828rem 29.157rem 0 29.175rem;
+}
+
+.ff > h3{
+    text-align: center;
+    font-size: 1.759rem;
+}
+.ff > p{
+    padding-top: 1.099rem;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 0.79rem;
+    text-align: center; 
+    line-height: 1.32rem;
+}
