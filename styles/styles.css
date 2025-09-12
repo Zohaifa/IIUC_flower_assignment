@@ -4,24 +4,32 @@
     font-family: 'Lato', sans-serif;
     border-width: 0px;
 }
+
 header{
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 2.2rem 10.55rem 0rem 10.55rem;
 }
+
 .h-1{
-    font-size:5rem;
+    font-size:3.51rem;
+    color: #272727;
     font-weight: bolder;
 }
 .h-2{
-    font-size: 1.125rem;
+    font-size: 0.79 rem;
     color: rgba(39, 39, 39, 0.6);
 }
 .btn-1{
-    padding: 1.25rem 2.69rem;
+    padding: 0.88rem 1.89rem;
     color: #fff;
     font-weight: bold;
-    font-size:1.25rem;
+    font-size: 0.88rem;
     background-color: #e55473;
     border-radius: 8px;
+}
+header > img{
+    width: 27.32rem;
 }
