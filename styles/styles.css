@@ -14,13 +14,16 @@ header{
 }
 
 .h-1{
-    font-size:3.51rem;
+    font-size:4rem;
     color: #272727;
-    font-weight: bolder;
+    font-weight: 800;
+    padding-bottom: 1.4rem;
 }
 .h-2{
-    font-size: 0.79 rem;
+    font-size: 0.79rem;
+    line-height: 1.32rem;
     color: rgba(39, 39, 39, 0.6);
+    padding-bottom: 1.4rem;
 }
 .btn-1{
     padding: 0.88rem 1.89rem;
@@ -28,7 +31,7 @@ header{
     font-weight: bold;
     font-size: 0.88rem;
     background-color: #e55473;
-    border-radius: 8px;
+    border-radius: 0.35rem;
 }
 header > img{
     width: 27.32rem;
