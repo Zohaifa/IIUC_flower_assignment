@@ -32,6 +32,7 @@ header{
     font-size: 0.88rem;
     background-color: #e55473;
     border-radius: 0.35rem;
+    align-self: center;
 }
 header > img{
     width: 27.32rem;
@@ -114,3 +115,49 @@ header > img{
     margin-top: 1rem;
     color: rgba(39, 39, 39, 0.8);
 }
+
+.sale-block{
+    margin-top: 5.629rem;
+    padding-top: 4.398rem;
+    padding-bottom: 4.398rem;
+    background-color: rgba(229, 84, 115, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.sale-text-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.sale-text{
+    width: 26.15rem;
+    height: auto;
+    text-align: center;
+}
+
+.sale-text h2{
+    font-size: 1.759rem;
+    margin-bottom: 1.055rem;
+}
+
+.sale-text p{
+    margin-bottom: 1.4rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.sale-text span{
+    color: #e55473;
+}
+
+
+.sale-block img{
+    height: 295.531px;
+    width: auto;
+}
+
