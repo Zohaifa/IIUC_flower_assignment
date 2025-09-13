@@ -242,3 +242,24 @@ footer{
     gap: 1.4rem;
     text-align: center;
 }
+
+footer h2{
+    font-size: 2.11rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+footer span{
+    color: #e55473;
+}
+
+.fp-1{
+    color: rgba(255, 255, 255, 0.9);
+    width: 27.486rem;
+    font-size: 0.79rem;
+}
+
+.fp-2{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.7rem;
+}
