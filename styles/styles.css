@@ -134,7 +134,6 @@ header > img{
 
 }
 
-
 .sale-text{
     width: 26.15rem;
     height: auto;
@@ -161,3 +160,85 @@ header > img{
     width: auto;
 }
 
+.instagram{
+    padding: 5.629rem 29.157rem 0  29.157rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.055rem;
+}
+
+.instagram h3{
+    font-size: 1.759rem;
+    font-weight: 800;
+}
+
+.instagram p{
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.pic-spam{
+    margin: 2.11rem 10.55rem 0 10.55rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.pic-spam img{
+    height:17.415rem;
+    width: 15rem;
+}
+
+.flowery-banner{
+    margin: 5.629rem 10.55rem 5.629rem 10.55rem;
+    width: 63.328rem;
+    height: 19.746rem;
+    background-image: url(./../Asset/Rectangle-9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    text-align: center;
+}
+
+.flowery-banner h2{
+    font-size: 1.759rem;
+    font-weight: 800;
+    color: #272727;
+}
+
+.flowery-banner p{
+    font-size: 0.79rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.email-btn{
+    display: flex;
+    gap: 0.5rem;
+    height: 2.814rem;
+}
+
+.email-btn input{
+    width: 30.784rem;
+    padding-left: 1rem;
+    border: 1px solid rgba(39, 39, 39, 0.3);
+    border-radius: 0.35rem;
+    font-size: 0.88rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+footer{
+    height:19.746rem;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    text-align: center;
+}
